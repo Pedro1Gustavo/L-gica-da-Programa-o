@@ -1,11 +1,7 @@
-pessoa = input("idade:")
-if pessoa >= 18: 
-  print ("pessoa é maior de idade:")
-elif pessoa <= 17: 
-  print ("pessoa é menor de idade:")
-  
- 
-
-
-
+soma = 5 
+numero = 5 
+while numero <= 14: 
+    soma += numero 
+    numero += 1 
+    print("resultado:", soma)
 
