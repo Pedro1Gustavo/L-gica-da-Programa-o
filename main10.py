@@ -1,0 +1,14 @@
+contagem_positivos = 0
+contagem_negativos = 0
+for i in range(10):
+    
+    numero = int(input("Insira um número (ou 0 para parar): "))
+    if numero == 0:
+        print("Você inseriu 0. O programa será encerrado.")
+        break  
+    elif numero > 0:
+        contagem_positivos += 1  
+    else:
+        contagem_negativos += 1  
+print(f"Números positivos: {contagem_positivos}")
+print(f"Números negativos: {contagem_negativos}")
